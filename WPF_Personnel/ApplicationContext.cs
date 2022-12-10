@@ -12,7 +12,7 @@ namespace WPF_Personnel
         public DbSet<worker> workers_table { get; set; } = null!;
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite("Data Source=database.db");
+            optionsBuilder.UseSqlite("Data Source=database_workers.db");
         }
     }
 }

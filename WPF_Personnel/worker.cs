@@ -14,12 +14,12 @@ namespace WPF_Personnel
         public string last_name { get; set; }
         public string patronymic { get; set; }
         public string date_birth { get; set; }
-        public int number_phone { get; set; }
+        public string number_phone { get; set; }
         public string group { get; set; }
 
         public worker() { }
 
-        public worker(string identificator, string name, string last_name, string patronymic, string date_birth, int number_phone, string group)
+        public worker(string identificator, string name, string last_name, string patronymic, string date_birth, string number_phone, string group)
         {
             this.identificator = identificator;
             this.name = name;

@@ -1,15 +1,16 @@
 ﻿<Window x:Class="WPF_Personnel.new_worker"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_Personnel"
         mc:Ignorable="d"
-        Title="Добавление нового сотрудника" ResizeMode="NoResize" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" >
+        Title="Добавление нового сотрудника" ResizeMode="CanMinimize" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" >
     <Grid>
         <Border Margin="20" Background="White" Padding="10" CornerRadius="10">
             <StackPanel>
-                <Label Content="Введите id" FontSize="12" Margin="20,10,0,0"/>
+                <Label Content="Введите Идентификатор работника" FontSize="12" Margin="20,10,0,0"/>
                 <TextBox x:Name="boxidentificator" TextWrapping="Wrap" FontSize="16" Width="400" Height="25" Margin="-250,0,0,0"/>
                 <Label Content="Введите Имя" FontSize="12" Margin="20,0,0,0"/>
                 <TextBox x:Name="boxname" TextWrapping="Wrap" FontSize="16" Width="400" Height="25" Margin="-250,0,0,0"/>
@@ -23,7 +24,7 @@
                 <TextBox x:Name="boxnumber_phone" TextWrapping="Wrap" FontSize="16" Width="400" Height="25" Margin="-250,0,0,0"/>
                 <Label Content="Введите Отдел" FontSize="12" Margin="20,0,0,0"/>
                 <TextBox x:Name="boxgroup" TextWrapping="Wrap" FontSize="16" Width="400" Height="25" Margin="-250,0,0,0"/>
-                <Button Content="Сохранить" HorizontalAlignment="Center" Margin="450,-45,0,0" VerticalAlignment="Top" Height="45" Width="250"/>
+                <Button x:Name="save" Content="Сохранить" HorizontalAlignment="Center" Margin="450,-45,0,0" VerticalAlignment="Top" Height="45" Width="250" Click="save_Click"/>
             </StackPanel>
         </Border>
     </Grid>

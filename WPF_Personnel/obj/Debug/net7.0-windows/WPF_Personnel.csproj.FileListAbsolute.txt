@@ -64,4 +64,4 @@ C:\Users\rvarf\source\repos\WPF_Personnel\WPF_Personnel\bin\Debug\net7.0-windows
 C:\Users\rvarf\source\repos\WPF_Personnel\WPF_Personnel\obj\Debug\net7.0-windows\new_worker.g.cs
 C:\Users\rvarf\source\repos\WPF_Personnel\WPF_Personnel\obj\Debug\net7.0-windows\new_worker.baml
 C:\Users\rvarf\source\repos\WPF_Personnel\WPF_Personnel\obj\Debug\net7.0-windows\WPF_Personnel.csproj.CopyComplete
-C:\Users\rvarf\source\repos\WPF_Personnel\WPF_Personnel\bin\Debug\net7.0-windows\database.db
+C:\Users\rvarf\source\repos\WPF_Personnel\WPF_Personnel\bin\Debug\net7.0-windows\database_workers.db
