@@ -22,9 +22,13 @@
                     </DataGrid.Columns>
                 </DataGrid>
             <StackPanel>
+                <Label Content="Поиск" FontSize="12" Margin="10 0"/>
+                <TextBox x:Name="boxsearch" TextWrapping="Wrap" FontSize="16" Height="25" Width="250" Margin="10 0" TextChanged="boxsearch_TextChanged"/>
                 <Button x:Name="add" Content="Добавить" Margin="10" Background="Aquamarine" Grid.Column="1" Height="50" VerticalAlignment="Top" HorizontalAlignment="Right" Width="250" Click="add_Click"/>
                 <Button x:Name="refresh" Content="Обновить" Margin="10" Background="Aquamarine" Grid.Column="1" HorizontalAlignment="Right" Width="250" Height="50" VerticalAlignment="Top" Click="refresh_Click"/>
-            </StackPanel>
+                <Button x:Name="excel" Content="Экспорт в Excel" Margin="10" Background="Aquamarine" Grid.Column="1" Height="50" VerticalAlignment="Top" HorizontalAlignment="Right" Width="250" Click="excel_Click"/>
+                <Button x:Name="json" Content="Экспорт в JSON" Margin="10" Background="Aquamarine" Grid.Column="1" Height="50" VerticalAlignment="Top" HorizontalAlignment="Right" Width="250" Click="json_Click"/>
+                </StackPanel>
             </StackPanel>
         </Border>
         

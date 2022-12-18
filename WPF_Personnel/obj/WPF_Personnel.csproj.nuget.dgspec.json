@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rvarf\\source\\repos\\WPF_Personnel\\WPF_Personnel\\WPF_Personnel.csproj": {}
+    "D:\\project\\WPF_Personnel\\WPF_Personnel\\WPF_Personnel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rvarf\\source\\repos\\WPF_Personnel\\WPF_Personnel\\WPF_Personnel.csproj": {
+    "D:\\project\\WPF_Personnel\\WPF_Personnel\\WPF_Personnel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rvarf\\source\\repos\\WPF_Personnel\\WPF_Personnel\\WPF_Personnel.csproj",
+        "projectUniqueName": "D:\\project\\WPF_Personnel\\WPF_Personnel\\WPF_Personnel.csproj",
         "projectName": "WPF_Personnel",
-        "projectPath": "C:\\Users\\rvarf\\source\\repos\\WPF_Personnel\\WPF_Personnel\\WPF_Personnel.csproj",
+        "projectPath": "D:\\project\\WPF_Personnel\\WPF_Personnel\\WPF_Personnel.csproj",
         "packagesPath": "C:\\Users\\rvarf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rvarf\\source\\repos\\WPF_Personnel\\WPF_Personnel\\obj\\",
+        "outputPath": "D:\\project\\WPF_Personnel\\WPF_Personnel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rvarf\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
           "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            },
             "MaterialDesignThemes": {
               "target": "Package",
               "version": "[4.6.1, )"
@@ -47,6 +51,10 @@
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
             }
           },
           "imports": [

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\rvarf\source\repos\WPF_Personnel\WPF_Personnel\obj\Debug\net7.0-windows\
+D:\project\WPF_Personnel\WPF_Personnel\obj\Debug\net7.0-windows\
 WPF_Personnel
 none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
-C:\Users\rvarf\source\repos\WPF_Personnel\WPF_Personnel\App.xaml
+D:\project\WPF_Personnel\WPF_Personnel\App.xaml
 21539936991
 
 81117714807
-218795263992
+2301139986244
 MainWindow.xaml;new_worker.xaml;
 
-False
+True
 

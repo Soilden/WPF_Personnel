@@ -39,8 +39,10 @@ namespace WPF_Personnel
             string group = boxgroup.Text.Trim();
 
             worker worker = new worker(identificator, name, last_name, patronymic, date_birth, number_phone, group);
+
             database.workers_table.Add(worker);
             database.SaveChanges();
+
             Hide();
         }
     }
